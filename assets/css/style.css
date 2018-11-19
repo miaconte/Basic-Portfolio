@@ -1,5 +1,107 @@
-.a {
+body {
+    background-image: url("/Users/coding/Desktop/Basic-Portfolio/background pattern/qbkls.png");
+}
+
+.aboutme {
     width: 100%;
     border: 1px solid #000000;
     word-wrap: break-word;
 }
+
+.content {
+    max-width: 960px;
+    margin: auto;
+    padding: 10px;
+    background-color: white;
+}
+
+.content2 {
+    max-width: 100%;
+    margin: auto;
+    background-color: white;
+}
+
+.headingbox {
+    float: left;
+    max-width: 100px;
+    background-color: #4aaaa5;
+    padding: 10px;
+    color: white;
+    margin: 0px;
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: #ffffff;
+    color: #777777;
+    max-width: 960px;
+    margin: 0px;
+  }
+  
+.topnav a {
+    float: right;
+    color: #777777;
+    border: #cccccc; 
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+
+.a {
+    color:#ffffff;
+    text-decoration: none;
+}
+
+.wrapper {
+    text-align: center;
+    overflow-wrap: break-word;
+}
+
+/***** contact page *****/
+
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+
+.toptext {
+    color: #4aaaa5; 
+    text-align: left;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+}
+
+.content {
+    max-width: 960px;
+    margin: auto;
+    background-color: white;
+}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color:#4aaaa5;
+    color:#ffffff;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color:#4aaaa5;
+}
+
+.container {
+    border-radius: 5px;
+    background-color: #ffffff;
+    padding: 20px;
+}
+
+/***** portfolio page *****/
