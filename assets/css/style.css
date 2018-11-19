@@ -22,12 +22,13 @@ body {
 }
 
 .headingbox {
-    float: left;
-    max-width: 100px;
+    float: right;
     background-color: #4aaaa5;
     padding: 10px;
     color: white;
     margin: 0px;
+    position: absolute;
+    margin-left: 232px;
 }
 
 .topnav {
@@ -55,6 +56,13 @@ body {
 .wrapper {
     text-align: center;
     overflow-wrap: break-word;
+}
+
+.navtext {
+        position: absolute;
+        Top: 15px;
+        Bottom: 0px;
+        Left: 950px;
 }
 
 /***** contact page *****/
