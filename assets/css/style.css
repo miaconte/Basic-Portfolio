@@ -24,7 +24,7 @@ body {
 .headingbox {
     float: right;
     background-color: #4aaaa5;
-    padding: 10px;
+    padding: 0px;
     color: white;
     margin: 0px;
     position: absolute;
@@ -65,6 +65,11 @@ body {
         Left: 950px;
 }
 
+
+.clearfix {
+    float: right;
+    overflow: auto;
+}
 /***** contact page *****/
 
 body {font-family: Arial, Helvetica, sans-serif;}
